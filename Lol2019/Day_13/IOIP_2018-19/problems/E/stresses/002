@@ -1,0 +1,1 @@
+{"id":"c84cf7664926fe60e812fc8d99f1cdbd","index":2,"scriptPattern":"gen_rand [2..20] [0..2] [1..1000000]","inputFile":"stdin","outputFile":"stdout","memoryLimit":256,"timeLimit":3000,"totalTimeLimit":120000,"solutionNames":["ig_ok.cpp","orders_ma_masks_bfs.cpp","orders_ma_masks.cpp"],"description":"","solutionNamesUid":"9a8a74cef36928822f1760ebcaf6085b"}

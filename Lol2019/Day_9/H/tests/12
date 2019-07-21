@@ -1,0 +1,348 @@
+jump 1 9
+print 6
+jump 2 2
+print 4
+print 1
+jump 1 1
+print 4
+jump 7 3
+print 6
+print 1
+jump 8 3
+print 2
+print 10
+print 3
+print 7
+print 7
+print 5
+jump 16 2
+jump 10 8
+print 1
+jump 5 10
+jump 4 2
+print 9
+jump 7 8
+print 8
+print 4
+jump 21 7
+print 9
+jump 29 1
+print 5
+print 1
+print 7
+print 7
+print 9
+jump 28 4
+jump 32 5
+jump 34 4
+jump 25 7
+print 2
+print 5
+print 3
+jump 2 5
+jump 10 9
+print 1
+print 2
+jump 29 7
+print 6
+print 2
+jump 35 5
+print 5
+print 3
+print 7
+jump 3 9
+print 5
+jump 29 4
+print 9
+jump 8 5
+jump 23 4
+print 6
+jump 11 10
+print 8
+print 5
+print 3
+jump 55 5
+jump 22 10
+jump 6 4
+print 1
+print 10
+jump 25 2
+print 5
+jump 71 10
+print 2
+jump 50 4
+jump 54 7
+print 2
+print 5
+print 10
+print 3
+jump 36 3
+print 1
+jump 63 5
+jump 64 9
+jump 38 3
+jump 81 6
+print 9
+print 1
+jump 84 10
+print 6
+print 10
+jump 76 3
+print 8
+print 8
+jump 21 6
+print 4
+print 5
+jump 17 1
+print 4
+jump 43 8
+jump 87 2
+jump 18 2
+print 5
+jump 23 10
+print 10
+jump 67 3
+jump 1 5
+jump 81 7
+print 10
+print 5
+jump 50 3
+jump 11 7
+print 2
+jump 67 8
+jump 23 5
+print 4
+print 5
+print 8
+print 8
+print 7
+jump 79 10
+print 4
+print 3
+print 8
+jump 67 5
+jump 105 8
+print 2
+jump 43 9
+print 1
+print 7
+print 1
+jump 78 1
+jump 86 5
+print 2
+jump 100 3
+print 3
+print 10
+print 6
+jump 20 2
+print 3
+jump 73 6
+print 10
+print 10
+jump 27 8
+print 10
+jump 35 8
+print 3
+jump 45 1
+jump 103 9
+jump 48 8
+jump 16 4
+jump 26 10
+jump 16 3
+jump 11 4
+jump 2 6
+jump 47 10
+print 6
+print 5
+print 4
+print 10
+jump 59 10
+print 7
+jump 95 10
+print 9
+jump 23 7
+print 2
+print 10
+print 7
+print 9
+jump 91 10
+jump 108 4
+jump 114 1
+print 10
+jump 142 9
+print 4
+jump 99 2
+jump 39 4
+jump 48 3
+jump 106 7
+print 7
+jump 80 6
+jump 14 9
+jump 22 6
+print 10
+jump 26 4
+print 3
+jump 52 7
+jump 51 10
+print 10
+print 8
+jump 152 1
+jump 11 9
+jump 144 9
+jump 151 4
+print 10
+jump 159 10
+print 6
+jump 131 1
+print 5
+jump 52 1
+jump 141 10
+print 8
+jump 200 1
+print 5
+jump 152 8
+print 5
+print 1
+print 8
+jump 95 9
+print 2
+jump 20 7
+jump 36 4
+print 5
+jump 52 10
+print 1
+print 3
+print 5
+print 8
+jump 44 9
+print 8
+jump 165 5
+print 5
+jump 146 10
+jump 218 7
+print 10
+print 6
+jump 167 9
+print 8
+print 6
+print 9
+jump 153 3
+print 1
+jump 176 6
+jump 150 4
+print 7
+jump 202 8
+print 9
+print 7
+jump 103 3
+jump 52 10
+jump 231 7
+print 6
+print 5
+print 7
+jump 180 2
+print 6
+print 9
+print 5
+print 10
+jump 133 1
+jump 77 6
+print 5
+print 6
+jump 138 4
+print 6
+jump 22 6
+jump 27 8
+jump 164 6
+jump 156 2
+jump 129 10
+jump 123 2
+jump 63 10
+jump 114 5
+print 4
+jump 263 6
+jump 86 1
+print 9
+jump 33 5
+print 2
+jump 106 6
+print 6
+jump 69 6
+jump 182 7
+jump 223 9
+print 6
+print 10
+jump 231 10
+jump 176 3
+print 7
+print 1
+jump 156 3
+print 6
+jump 249 3
+jump 194 5
+print 5
+jump 20 6
+print 6
+jump 98 6
+print 2
+jump 224 4
+jump 98 8
+print 10
+jump 63 5
+print 2
+print 9
+jump 255 9
+print 1
+print 5
+print 6
+print 4
+print 2
+print 4
+jump 84 8
+print 9
+jump 198 4
+print 6
+jump 256 10
+jump 132 1
+print 2
+jump 236 9
+jump 223 3
+print 3
+jump 37 1
+jump 115 5
+jump 106 1
+jump 307 4
+print 2
+jump 185 7
+jump 292 4
+jump 209 2
+jump 93 4
+print 8
+print 6
+print 5
+jump 281 5
+jump 49 3
+print 10
+jump 200 3
+print 9
+jump 149 3
+jump 310 6
+jump 1 9
+print 5
+jump 24 6
+print 7
+print 1
+jump 54 5
+jump 247 3
+print 5
+jump 85 3
+print 4
+print 9
+jump 49 8
+jump 194 7
+jump 103 1
+jump 270 9
+jump 147 6
+jump 42 1
+print 8
+print 6

@@ -1,0 +1,1 @@
+{"id":"0569b7e18fccb1614376417bc8aaebfa","index":10,"scriptPattern":"gen_rand [2..20] [0..2] [1..1000000]","inputFile":"stdin","outputFile":"stdout","memoryLimit":256,"timeLimit":3000,"totalTimeLimit":120000,"solutionNames":["ig_ok.cpp","orders_nb_slow.cpp"],"description":"","solutionNamesUid":"ab7daf35a07d2b75e7d26334fc3e6358"}

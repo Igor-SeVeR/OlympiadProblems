@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<problem revision="30" short-name="random-matrix" url="https://polygon.codeforces.com/p1tPyqe/gainullin.ildar/random-matrix">
+    <names>
+        <name language="russian" value="Кот Гусь и случайная матрица"/>
+    </names>
+    <statements>
+        <statement charset="UTF-8" language="russian" mathjax="true" path="statements/russian/problem.tex" type="application/x-tex"/>
+        <statement language="russian" path="statements/.pdf/russian/problem.pdf" type="application/pdf"/>
+    </statements>
+    <tutorials>
+        <tutorial charset="UTF-8" language="russian" mathjax="true" path="statements/russian/tutorial.tex" type="application/x-tex"/>
+        <tutorial language="russian" path="statements/.pdf/russian/tutorial.pdf" type="application/pdf"/>
+        <tutorial charset="UTF-8" language="russian" mathjax="true" path="statements/.html/russian/tutorial.html" type="text/html"/>
+    </tutorials>
+    <judging cpu-name="Intel(R) Core(TM) i3-8100 CPU @ 3.60GHz" cpu-speed="3600" input-file="" output-file="">
+        <testset name="tests">
+            <time-limit>3000</time-limit>
+            <memory-limit>268435456</memory-limit>
+            <test-count>51</test-count>
+            <input-path-pattern>tests/%02d</input-path-pattern>
+            <answer-path-pattern>tests/%02d.a</answer-path-pattern>
+            <tests>
+                <test cmd="gen 6 7 5" group="0" method="generated" points="0.0" sample="true"/>
+                <test cmd="gen 750 4 871895" group="1" method="generated" points="2.0"/>
+                <test cmd="gen 375 8 430374" group="1" method="generated" points="2.0"/>
+                <test cmd="gen 54 54 321560" group="1" method="generated" points="2.0"/>
+                <test cmd="gen 2 1500 681309" group="1" method="generated" points="2.0"/>
+                <test cmd="gen 600 5 465956" group="1" method="generated" points="2.0"/>
+                <test cmd="gen 300 250 827216" group="2" method="generated" points="2.0"/>
+                <test cmd="gen 300 300 655816" group="2" method="generated" points="2.0"/>
+                <test cmd="gen 250 300 441501" group="2" method="generated" points="2.0"/>
+                <test cmd="gen 300 300 682798" group="2" method="generated" points="2.0"/>
+                <test cmd="gen 239 239 412389" group="2" method="generated" points="2.0"/>
+                <test cmd="gen 1000000 1 123456" group="3" method="generated" points="2.0"/>
+                <test cmd="gen 1 1000000 400492" group="3" method="generated" points="2.0"/>
+                <test cmd="gen 1000000 1 239239" group="3" method="generated" points="2.0"/>
+                <test cmd="gen 1 1000000 1000000" group="3" method="generated" points="2.0"/>
+                <test cmd="gen 1000000 1 321123" group="3" method="generated" points="2.0"/>
+                <test cmd="gen 50000 20 4111" group="4" method="generated" points="2.0"/>
+                <test cmd="gen 30 33333 5000" group="4" method="generated" points="2.0"/>
+                <test cmd="gen 4032 248 1234" group="4" method="generated" points="2.0"/>
+                <test cmd="gen 596 1677 2228" group="4" method="generated" points="2.0"/>
+                <test cmd="gen 2688 372 1488" group="4" method="generated" points="2.0"/>
+                <test cmd="gen 1114 897 695418" group="5" method="generated" points="2.0"/>
+                <test cmd="gen 1522 657 865176" group="5" method="generated" points="2.0"/>
+                <test cmd="gen 348 2873 639396" group="5" method="generated" points="2.0"/>
+                <test cmd="gen 1119 893 543812" group="5" method="generated" points="2.0"/>
+                <test cmd="gen 2032 492 185560" group="5" method="generated" points="2.0"/>
+                <test cmd="gen 354 2824 642648" group="5" method="generated" points="2.0"/>
+                <test cmd="gen 1146 872 703816" group="5" method="generated" points="2.0"/>
+                <test cmd="gen 794 1259 657477" group="5" method="generated" points="2.0"/>
+                <test cmd="gen 307 3257 68798" group="5" method="generated" points="2.0"/>
+                <test cmd="gen 1075 930 927434" group="5" method="generated" points="2.0"/>
+                <test cmd="gen 643 1555 649635" group="5" method="generated" points="2.0"/>
+                <test cmd="gen 388 2577 930731" group="5" method="generated" points="2.0"/>
+                <test cmd="gen 8333 120 247381" group="5" method="generated" points="2.0"/>
+                <test cmd="gen 200 5000 698187" group="5" method="generated" points="2.0"/>
+                <test cmd="gen 999 1001 879547" group="5" method="generated" points="2.0"/>
+                <test cmd="gen 902 1108 186556" group="5" method="generated" points="2.0"/>
+                <test cmd="gen 5208 192 235765" group="5" method="generated" points="2.0"/>
+                <test cmd="gen 2087 479 696809" group="5" method="generated" points="2.0"/>
+                <test cmd="gen 1510 662 787019" group="5" method="generated" points="2.0"/>
+                <test cmd="gen 2785 359 33323" group="5" method="generated" points="2.0"/>
+                <test cmd="gen 1075 930 695951" group="5" method="generated" points="2.0"/>
+                <test cmd="gen 1828 547 162526" group="5" method="generated" points="2.0"/>
+                <test cmd="gen 648 1543 259003" group="5" method="generated" points="2.0"/>
+                <test cmd="gen 784 1275 992511" group="5" method="generated" points="2.0"/>
+                <test cmd="gen 481 2079 69844" group="5" method="generated" points="2.0"/>
+                <test cmd="gen 312 3205 989995" group="5" method="generated" points="2.0"/>
+                <test cmd="gen 504 1984 407834" group="5" method="generated" points="2.0"/>
+                <test cmd="gen 193 5181 22477" group="5" method="generated" points="2.0"/>
+                <test cmd="gen 1000 1000 1000000" group="5" method="generated" points="2.0"/>
+                <test cmd="gen 10 100000 912929" group="5" method="generated" points="2.0"/>
+            </tests>
+            <groups>
+                <group feedback-policy="points" name="0" points-policy="each-test"/>
+                <group feedback-policy="points" name="1" points-policy="each-test"/>
+                <group feedback-policy="points" name="2" points-policy="each-test"/>
+                <group feedback-policy="points" name="3" points-policy="each-test"/>
+                <group feedback-policy="points" name="4" points-policy="each-test"/>
+                <group feedback-policy="points" name="5" points-policy="each-test">
+                    <dependencies>
+                        <dependency group="1"/>
+                    </dependencies>
+                </group>
+            </groups>
+        </testset>
+    </judging>
+    <files>
+        <resources>
+            <file path="files/olymp.sty"/>
+            <file path="files/problem.tex"/>
+            <file path="files/statements.ftl"/>
+            <file path="files/testlib.h" type="h.g++"/>
+            <file path="files/tutorial.tex"/>
+        </resources>
+        <executables>
+            <executable>
+                <source path="files/gen.cpp" type="cpp.g++17"/>
+                <binary path="files/gen.exe" type="exe.win32"/>
+            </executable>
+            <executable>
+                <source path="files/validate.cpp" type="cpp.g++17"/>
+                <binary path="files/validate.exe" type="exe.win32"/>
+            </executable>
+        </executables>
+    </files>
+    <assets>
+        <checker name="std::hcmp.cpp" type="testlib">
+            <source path="files/check.cpp" type="cpp.g++17"/>
+            <binary path="check.exe" type="exe.win32"/>
+            <copy path="check.cpp"/>
+            <testset>
+                <test-count>0</test-count>
+                <input-path-pattern>files/tests/checker-tests/%02d</input-path-pattern>
+                <output-path-pattern>files/tests/checker-tests/%02d.o</output-path-pattern>
+                <answer-path-pattern>files/tests/checker-tests/%02d.a</answer-path-pattern>
+                <tests/>
+            </testset>
+        </checker>
+        <validators>
+            <validator>
+                <source path="files/validate.cpp" type="cpp.g++17"/>
+                <binary path="files/validate.exe" type="exe.win32"/>
+                <testset>
+                    <test-count>1</test-count>
+                    <input-path-pattern>files/tests/validator-tests/%02d</input-path-pattern>
+                    <tests>
+                        <test verdict="valid"/>
+                    </tests>
+                </testset>
+            </validator>
+        </validators>
+        <solutions>
+            <solution tag="time-limit-exceeded-or-accepted">
+                <source path="solutions/ig_ok.cpp" type="cpp.g++17"/>
+                <binary path="solutions/ig_ok.exe" type="exe.win32"/>
+            </solution>
+            <solution tag="time-limit-exceeded-or-accepted">
+                <source path="solutions/ig_tl_set.cpp" type="cpp.g++17"/>
+                <binary path="solutions/ig_tl_set.exe" type="exe.win32"/>
+            </solution>
+            <solution tag="rejected">
+                <source path="solutions/is_30p.cpp" type="cpp.g++17"/>
+                <binary path="solutions/is_30p.exe" type="exe.win32"/>
+            </solution>
+            <solution tag="rejected">
+                <source path="solutions/is_6p.cpp" type="cpp.g++17"/>
+                <binary path="solutions/is_6p.exe" type="exe.win32"/>
+            </solution>
+            <solution tag="main">
+                <source path="solutions/is_ok.cpp" type="cpp.g++17"/>
+                <binary path="solutions/is_ok.exe" type="exe.win32"/>
+            </solution>
+            <solution tag="rejected">
+                <source path="solutions/is_wa.cpp" type="cpp.g++17"/>
+                <binary path="solutions/is_wa.exe" type="exe.win32"/>
+            </solution>
+        </solutions>
+    </assets>
+    <properties>
+        <property name="tests-wellformed" value="true"/>
+    </properties>
+    <stresses>
+        <stress-count>3</stress-count>
+        <stress-path-pattern>stresses/%03d</stress-path-pattern>
+        <list>
+            <stress index="3" path="stresses/003"/>
+            <stress index="2" path="stresses/002"/>
+            <stress index="1" path="stresses/001"/>
+        </list>
+    </stresses>
+    <tags>
+        <tag value="greedy"/>
+        <tag value="math"/>
+        <tag value="priority queue"/>
+    </tags>
+</problem>

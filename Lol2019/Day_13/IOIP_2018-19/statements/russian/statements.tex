@@ -1,0 +1,40 @@
+\documentclass [11pt, a4paper, oneside] {article}
+
+\usepackage [T2A] {fontenc}
+\usepackage [utf8] {inputenc}
+\usepackage [english, russian] {babel}
+\usepackage {amsmath}
+\usepackage {amssymb}
+\usepackage [russian]{olymp}
+\usepackage {comment}
+\usepackage {epigraph}
+\usepackage {expdlist}
+\usepackage {graphicx}
+\usepackage {ulem}
+\usepackage {import}
+
+\begin {document}
+
+\contest
+{Индивидуальная олимпиада по информатике и программированию 2019}%
+{Заключительный этап}%
+{24 марта 2019}%
+
+\binoppenalty=10000
+\relpenalty=10000
+
+\renewcommand{\t}{\texttt}
+
+
+\graphicspath{{../../problems/median/statements/russian/}}
+\import{../../problems/median/statements/russian/}{./problem.tex}
+\graphicspath{{../../problems/two-texts/statements/russian/}}
+\import{../../problems/two-texts/statements/russian/}{./problem.tex}
+\graphicspath{{../../problems/decoding/statements/russian/}}
+\import{../../problems/decoding/statements/russian/}{./problem.tex}
+\graphicspath{{../../problems/random-matrix/statements/russian/}}
+\import{../../problems/random-matrix/statements/russian/}{./problem.tex}
+\graphicspath{{../../problems/orders/statements/russian/}}
+\import{../../problems/orders/statements/russian/}{./problem.tex}
+
+\end {document}

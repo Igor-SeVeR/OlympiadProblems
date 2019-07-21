@@ -1,0 +1,8 @@
+print 1
+print 2
+print 3
+print 4
+jump 4 1
+jump 3 2
+jump 2 3
+jump 1 4

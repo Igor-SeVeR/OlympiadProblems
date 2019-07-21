@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<problem revision="7" short-name="median" url="https://polygon.codeforces.com/p1uwJP2/gshark/median">
+    <names>
+        <name language="russian" value="Ослабление флота"/>
+    </names>
+    <statements>
+        <statement charset="UTF-8" language="russian" mathjax="true" path="statements/russian/problem.tex" type="application/x-tex"/>
+        <statement language="russian" path="statements/.pdf/russian/problem.pdf" type="application/pdf"/>
+    </statements>
+    <tutorials>
+        <tutorial charset="UTF-8" language="russian" mathjax="true" path="statements/russian/tutorial.tex" type="application/x-tex"/>
+        <tutorial language="russian" path="statements/.pdf/russian/tutorial.pdf" type="application/pdf"/>
+        <tutorial charset="UTF-8" language="russian" mathjax="true" path="statements/.html/russian/tutorial.html" type="text/html"/>
+    </tutorials>
+    <judging cpu-name="Intel(R) Core(TM) i3-8100 CPU @ 3.60GHz" cpu-speed="3600" input-file="" output-file="">
+        <testset name="tests">
+            <time-limit>2000</time-limit>
+            <memory-limit>268435456</memory-limit>
+            <test-count>24</test-count>
+            <input-path-pattern>tests/%02d</input-path-pattern>
+            <answer-path-pattern>tests/%02d.a</answer-path-pattern>
+            <tests>
+                <test group="0" method="manual" sample="true"/>
+                <test group="0" method="manual" sample="true"/>
+                <test cmd="gen 3" from-file="3" group="1" method="generated"/>
+                <test cmd="gen 3" from-file="4" group="1" method="generated"/>
+                <test cmd="gen 3" from-file="5" group="1" method="generated"/>
+                <test cmd="gen 3" from-file="6" group="1" method="generated"/>
+                <test cmd="gen 3" from-file="7" group="1" method="generated"/>
+                <test cmd="gen 3" from-file="8" group="1" method="generated"/>
+                <test cmd="gen 3" from-file="9" group="1" method="generated"/>
+                <test cmd="gen 3" from-file="10" group="1" method="generated"/>
+                <test cmd="gen 3" from-file="11" group="1" method="generated"/>
+                <test cmd="gen 3" from-file="12" group="1" method="generated"/>
+                <test cmd="gen 3" from-file="13" group="1" method="generated"/>
+                <test cmd="gen 3" from-file="14" group="1" method="generated"/>
+                <test cmd="gen 3" from-file="15" group="1" method="generated"/>
+                <test cmd="gen 3" from-file="16" group="2" method="generated"/>
+                <test cmd="gen 3" from-file="17" group="2" method="generated"/>
+                <test cmd="gen 3" from-file="18" group="2" method="generated"/>
+                <test cmd="gen 3" from-file="19" group="2" method="generated"/>
+                <test cmd="gen 3" from-file="20" group="2" method="generated"/>
+                <test cmd="gen 3" from-file="21" group="2" method="generated"/>
+                <test cmd="gen 3" from-file="22" group="2" method="generated"/>
+                <test cmd="gen 3" from-file="23" group="2" method="generated"/>
+                <test cmd="gen 3" from-file="24" group="2" method="generated"/>
+            </tests>
+        </testset>
+    </judging>
+    <files>
+        <resources>
+            <file path="files/olymp.sty"/>
+            <file path="files/problem.tex"/>
+            <file path="files/statements.ftl"/>
+            <file path="files/testlib.h" type="h.g++"/>
+            <file path="files/tutorial.tex"/>
+        </resources>
+        <executables>
+            <executable>
+                <source path="files/gen.cpp" type="cpp.g++17"/>
+                <binary path="files/gen.exe" type="exe.win32"/>
+            </executable>
+            <executable>
+                <source path="files/validator.cpp" type="cpp.g++17"/>
+                <binary path="files/validator.exe" type="exe.win32"/>
+            </executable>
+        </executables>
+    </files>
+    <assets>
+        <checker name="std::ncmp.cpp" type="testlib">
+            <source path="files/check.cpp" type="cpp.g++17"/>
+            <binary path="check.exe" type="exe.win32"/>
+            <copy path="check.cpp"/>
+            <testset>
+                <test-count>0</test-count>
+                <input-path-pattern>files/tests/checker-tests/%02d</input-path-pattern>
+                <output-path-pattern>files/tests/checker-tests/%02d.o</output-path-pattern>
+                <answer-path-pattern>files/tests/checker-tests/%02d.a</answer-path-pattern>
+                <tests/>
+            </testset>
+        </checker>
+        <validators>
+            <validator>
+                <source path="files/validator.cpp" type="cpp.g++17"/>
+                <binary path="files/validator.exe" type="exe.win32"/>
+                <testset>
+                    <test-count>4</test-count>
+                    <input-path-pattern>files/tests/validator-tests/%02d</input-path-pattern>
+                    <tests>
+                        <test verdict="valid"/>
+                        <test verdict="invalid"/>
+                        <test verdict="invalid"/>
+                        <test verdict="valid"/>
+                    </tests>
+                </testset>
+            </validator>
+        </validators>
+        <solutions>
+            <solution tag="main">
+                <source path="solutions/median_gs.cpp" type="cpp.g++17"/>
+                <binary path="solutions/median_gs.exe" type="exe.win32"/>
+            </solution>
+            <solution tag="accepted">
+                <source path="solutions/median_gs_py.py" type="python.3"/>
+                <binary path="solutions/median_gs_py.pys3" type="pythonx.3"/>
+            </solution>
+            <solution tag="time-limit-exceeded">
+                <source path="solutions/median_gs_tl.cpp" type="cpp.g++17"/>
+                <binary path="solutions/median_gs_tl.exe" type="exe.win32"/>
+            </solution>
+            <solution tag="wrong-answer">
+                <source path="solutions/median_gs_wa.cpp" type="cpp.g++17"/>
+                <binary path="solutions/median_gs_wa.exe" type="exe.win32"/>
+            </solution>
+        </solutions>
+    </assets>
+    <properties>
+        <property name="tests-wellformed" value="true"/>
+    </properties>
+    <stresses>
+        <stress-count>0</stress-count>
+        <stress-path-pattern>stresses/%03d</stress-path-pattern>
+        <list/>
+    </stresses>
+    <tags>
+        <tag value="sorts"/>
+        <tag value="two pointers"/>
+    </tags>
+</problem>

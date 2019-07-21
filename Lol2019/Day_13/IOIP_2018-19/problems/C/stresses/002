@@ -1,0 +1,1 @@
+{"id":"42431e24650e680148dc228fb1d2f27b","index":2,"scriptPattern":"gen_random [1..5] [0..9]","inputFile":"stdin","outputFile":"stdout","memoryLimit":256,"timeLimit":2000,"totalTimeLimit":120000,"solutionNames":["decoding_nb.cpp","decoding_dp.cpp"],"description":"","solutionNamesUid":""}

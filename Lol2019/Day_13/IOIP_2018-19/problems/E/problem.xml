@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<problem revision="25" short-name="orders" url="https://polygon.codeforces.com/p4iHnLI/manoprenko/orders">
+    <names>
+        <name language="russian" value="Упорядочивания"/>
+    </names>
+    <statements>
+        <statement charset="UTF-8" language="russian" mathjax="true" path="statements/russian/problem.tex" type="application/x-tex"/>
+        <statement language="russian" path="statements/.pdf/russian/problem.pdf" type="application/pdf"/>
+    </statements>
+    <tutorials>
+        <tutorial charset="UTF-8" language="russian" mathjax="true" path="statements/russian/tutorial.tex" type="application/x-tex"/>
+        <tutorial language="russian" path="statements/.pdf/russian/tutorial.pdf" type="application/pdf"/>
+        <tutorial charset="UTF-8" language="russian" mathjax="true" path="statements/.html/russian/tutorial.html" type="text/html"/>
+    </tutorials>
+    <judging cpu-name="Intel(R) Core(TM) i3-8100 CPU @ 3.60GHz" cpu-speed="3600" input-file="" output-file="">
+        <testset name="tests">
+            <time-limit>3000</time-limit>
+            <memory-limit>268435456</memory-limit>
+            <test-count>79</test-count>
+            <input-path-pattern>tests/%02d</input-path-pattern>
+            <answer-path-pattern>tests/%02d.a</answer-path-pattern>
+            <tests>
+                <test group="0" method="manual" sample="true"/>
+                <test group="0" method="manual" sample="true"/>
+                <test cmd="gen_rand 1 0 409671054" group="1" method="generated"/>
+                <test cmd="gen_rand 2 0 357695701" group="1" method="generated"/>
+                <test cmd="gen_rand 7 0 345256212" group="1" method="generated"/>
+                <test cmd="gen_rand 7 1 395349629" group="1" method="generated"/>
+                <test cmd="gen_rand 7 2 827593364" group="1" method="generated"/>
+                <test cmd="gen_bamboo 7 0 707062158" group="1" method="generated"/>
+                <test cmd="gen_bamboo 7 1 918939911" group="1" method="generated"/>
+                <test cmd="gen_bamboo 7 2 621582928" group="1" method="generated"/>
+                <test cmd="gen_binary 7 0 606460871" group="1" method="generated"/>
+                <test cmd="gen_binary 7 1 483269769" group="1" method="generated"/>
+                <test cmd="gen_binary 7 2 556774048" group="1" method="generated"/>
+                <test cmd="gen_brush 7 0 948290898" group="1" method="generated"/>
+                <test cmd="gen_brush 7 1 422038612" group="1" method="generated"/>
+                <test cmd="gen_brush 7 2 308824404" group="1" method="generated"/>
+                <test cmd="gen_sun 7 0 134739307" group="1" method="generated"/>
+                <test cmd="gen_sun 7 1 826757108" group="1" method="generated"/>
+                <test cmd="gen_sun 7 2 97264187" group="1" method="generated"/>
+                <test cmd="gen_rand 15 0 496865763" group="2" method="generated"/>
+                <test cmd="gen_rand 15 1 13236992" group="2" method="generated"/>
+                <test cmd="gen_rand 15 2 684780101" group="2" method="generated"/>
+                <test cmd="gen_bamboo 15 0 599140183" group="2" method="generated"/>
+                <test cmd="gen_bamboo 15 1 630303066" group="2" method="generated"/>
+                <test cmd="gen_bamboo 15 2 168347296" group="2" method="generated"/>
+                <test cmd="gen_binary 15 0 282376942" group="2" method="generated"/>
+                <test cmd="gen_binary 15 1 421194960" group="2" method="generated"/>
+                <test cmd="gen_binary 15 2 626242845" group="2" method="generated"/>
+                <test cmd="gen_brush 15 0 147770407" group="2" method="generated"/>
+                <test cmd="gen_brush 15 1 575105198" group="2" method="generated"/>
+                <test cmd="gen_brush 15 2 122241929" group="2" method="generated"/>
+                <test cmd="gen_sun 15 0 329150354" group="2" method="generated"/>
+                <test cmd="gen_sun 15 1 82374312" group="2" method="generated"/>
+                <test cmd="gen_sun 15 2 782758096" group="2" method="generated"/>
+                <test cmd="gen_rand 80 0 411957232" group="3" method="generated"/>
+                <test cmd="gen_rand 80 1 145937598" group="3" method="generated"/>
+                <test cmd="gen_rand 80 2 103482049" group="3" method="generated"/>
+                <test cmd="gen_bamboo 80 0 954374451" group="3" method="generated"/>
+                <test cmd="gen_bamboo 80 1 452687711" group="3" method="generated"/>
+                <test cmd="gen_bamboo 80 2 239651772" group="3" method="generated"/>
+                <test cmd="gen_binary 80 0 822044433" group="3" method="generated"/>
+                <test cmd="gen_binary 80 1 243404443" group="3" method="generated"/>
+                <test cmd="gen_binary 80 2 804455478" group="3" method="generated"/>
+                <test cmd="gen_brush 80 0 21293793" group="3" method="generated"/>
+                <test cmd="gen_brush 80 1 601992739" group="3" method="generated"/>
+                <test cmd="gen_brush 80 2 208892938" group="3" method="generated"/>
+                <test cmd="gen_sun 80 0 450290807" group="3" method="generated"/>
+                <test cmd="gen_sun 80 1 678746276" group="3" method="generated"/>
+                <test cmd="gen_sun 80 2 472015824" group="3" method="generated"/>
+                <test cmd="gen_rand 400 0 522430927" group="4" method="generated"/>
+                <test cmd="gen_rand 400 1 244861438" group="4" method="generated"/>
+                <test cmd="gen_rand 400 2 307814499" group="4" method="generated"/>
+                <test cmd="gen_bamboo 400 0 184669931" group="4" method="generated"/>
+                <test cmd="gen_bamboo 400 1 878269106" group="4" method="generated"/>
+                <test cmd="gen_bamboo 400 2 702428432" group="4" method="generated"/>
+                <test cmd="gen_binary 400 0 733375473" group="4" method="generated"/>
+                <test cmd="gen_binary 400 1 637288049" group="4" method="generated"/>
+                <test cmd="gen_binary 400 2 546212386" group="4" method="generated"/>
+                <test cmd="gen_brush 400 0 991795830" group="4" method="generated"/>
+                <test cmd="gen_brush 400 1 770955245" group="4" method="generated"/>
+                <test cmd="gen_brush 400 2 134788965" group="4" method="generated"/>
+                <test cmd="gen_sun 400 0 613746867" group="4" method="generated"/>
+                <test cmd="gen_sun 400 1 638331488" group="4" method="generated"/>
+                <test cmd="gen_sun 400 2 288986596" group="4" method="generated"/>
+                <test cmd="gen_rand 3000 0 479281451" group="5" method="generated"/>
+                <test cmd="gen_rand 3000 1 578029308" group="5" method="generated"/>
+                <test cmd="gen_rand 3000 2 677523468" group="5" method="generated"/>
+                <test cmd="gen_bamboo 3000 0 892083127" group="5" method="generated"/>
+                <test cmd="gen_bamboo 3000 1 751692736" group="5" method="generated"/>
+                <test cmd="gen_bamboo 3000 2 94480116" group="5" method="generated"/>
+                <test cmd="gen_binary 3000 0 291508449" group="5" method="generated"/>
+                <test cmd="gen_binary 3000 1 266037095" group="5" method="generated"/>
+                <test cmd="gen_binary 3000 2 80044308" group="5" method="generated"/>
+                <test cmd="gen_brush 3000 0 785369768" group="5" method="generated"/>
+                <test cmd="gen_brush 3000 1 798770992" group="5" method="generated"/>
+                <test cmd="gen_brush 3000 2 302741373" group="5" method="generated"/>
+                <test cmd="gen_sun 3000 0 568262124" group="5" method="generated"/>
+                <test cmd="gen_sun 3000 1 739206059" group="5" method="generated"/>
+                <test cmd="gen_sun 3000 2 309917193" group="5" method="generated"/>
+            </tests>
+        </testset>
+    </judging>
+    <files>
+        <resources>
+            <file path="files/olymp.sty"/>
+            <file path="files/problem.tex"/>
+            <file path="files/statements.ftl"/>
+            <file path="files/testlib.h" type="h.g++"/>
+            <file path="files/tutorial.tex"/>
+        </resources>
+        <executables>
+            <executable>
+                <source path="files/gen_bamboo.py" type="python.3"/>
+                <binary path="files/gen_bamboo.pys3" type="pythonx.3"/>
+            </executable>
+            <executable>
+                <source path="files/gen_binary.py" type="python.3"/>
+                <binary path="files/gen_binary.pys3" type="pythonx.3"/>
+            </executable>
+            <executable>
+                <source path="files/gen_brush.py" type="python.3"/>
+                <binary path="files/gen_brush.pys3" type="pythonx.3"/>
+            </executable>
+            <executable>
+                <source path="files/gen_rand.py" type="python.3"/>
+                <binary path="files/gen_rand.pys3" type="pythonx.3"/>
+            </executable>
+            <executable>
+                <source path="files/gen_sun.py" type="python.3"/>
+                <binary path="files/gen_sun.pys3" type="pythonx.3"/>
+            </executable>
+            <executable>
+                <source path="files/orders_validate.cpp" type="cpp.g++17"/>
+                <binary path="files/orders_validate.exe" type="exe.win32"/>
+            </executable>
+        </executables>
+    </files>
+    <assets>
+        <checker name="std::ncmp.cpp" type="testlib">
+            <source path="files/check.cpp" type="cpp.g++17"/>
+            <binary path="check.exe" type="exe.win32"/>
+            <copy path="check.cpp"/>
+            <testset>
+                <test-count>0</test-count>
+                <input-path-pattern>files/tests/checker-tests/%02d</input-path-pattern>
+                <output-path-pattern>files/tests/checker-tests/%02d.o</output-path-pattern>
+                <answer-path-pattern>files/tests/checker-tests/%02d.a</answer-path-pattern>
+                <tests/>
+            </testset>
+        </checker>
+        <validators>
+            <validator>
+                <source path="files/orders_validate.cpp" type="cpp.g++17"/>
+                <binary path="files/orders_validate.exe" type="exe.win32"/>
+                <testset>
+                    <test-count>3</test-count>
+                    <input-path-pattern>files/tests/validator-tests/%02d</input-path-pattern>
+                    <tests>
+                        <test verdict="valid"/>
+                        <test verdict="invalid"/>
+                        <test verdict="valid"/>
+                    </tests>
+                </testset>
+            </validator>
+        </validators>
+        <solutions>
+            <solution tag="main">
+                <source path="solutions/ig_ok.cpp" type="cpp.g++17"/>
+                <binary path="solutions/ig_ok.exe" type="exe.win32"/>
+                <extra-tags>
+                    <extra-tag tag="accepted" testset="tests"/>
+                </extra-tags>
+            </solution>
+            <solution tag="time-limit-exceeded">
+                <source path="solutions/orders_ma_dummy.cpp" type="cpp.g++17"/>
+                <binary path="solutions/orders_ma_dummy.exe" type="exe.win32"/>
+                <extra-tags>
+                    <extra-tag tag="time-limit-exceeded" testset="tests"/>
+                    <extra-tag group="0" tag="accepted"/>
+                    <extra-tag group="1" tag="accepted"/>
+                    <extra-tag group="2" tag="time-limit-exceeded"/>
+                    <extra-tag group="3" tag="time-limit-exceeded"/>
+                    <extra-tag group="4" tag="time-limit-exceeded"/>
+                    <extra-tag group="5" tag="time-limit-exceeded"/>
+                </extra-tags>
+            </solution>
+            <solution tag="rejected">
+                <source path="solutions/orders_ma_masks.cpp" type="cpp.g++17"/>
+                <binary path="solutions/orders_ma_masks.exe" type="exe.win32"/>
+                <extra-tags>
+                    <extra-tag tag="rejected" testset="tests"/>
+                    <extra-tag group="0" tag="accepted"/>
+                    <extra-tag group="1" tag="accepted"/>
+                    <extra-tag group="2" tag="accepted"/>
+                    <extra-tag group="3" tag="rejected"/>
+                    <extra-tag group="4" tag="rejected"/>
+                    <extra-tag group="5" tag="rejected"/>
+                </extra-tags>
+            </solution>
+            <solution tag="rejected">
+                <source path="solutions/orders_ma_masks_bfs.cpp" type="cpp.g++17"/>
+                <binary path="solutions/orders_ma_masks_bfs.exe" type="exe.win32"/>
+                <extra-tags>
+                    <extra-tag tag="rejected" testset="tests"/>
+                    <extra-tag group="0" tag="accepted"/>
+                    <extra-tag group="1" tag="accepted"/>
+                    <extra-tag group="2" tag="accepted"/>
+                    <extra-tag group="3" tag="rejected"/>
+                    <extra-tag group="4" tag="rejected"/>
+                    <extra-tag group="5" tag="rejected"/>
+                </extra-tags>
+            </solution>
+            <solution tag="accepted">
+                <source path="solutions/orders_mp.cpp" type="cpp.g++17"/>
+                <binary path="solutions/orders_mp.exe" type="exe.win32"/>
+            </solution>
+            <solution tag="accepted">
+                <source path="solutions/orders_nb.cpp" type="cpp.g++17"/>
+                <binary path="solutions/orders_nb.exe" type="exe.win32"/>
+            </solution>
+            <solution tag="time-limit-exceeded">
+                <source path="solutions/orders_nb_slow.cpp" type="cpp.g++17"/>
+                <binary path="solutions/orders_nb_slow.exe" type="exe.win32"/>
+            </solution>
+        </solutions>
+    </assets>
+    <properties>
+        <property name="tests-wellformed" value="true"/>
+    </properties>
+    <stresses>
+        <stress-count>13</stress-count>
+        <stress-path-pattern>stresses/%03d</stress-path-pattern>
+        <list>
+            <stress index="13" path="stresses/013"/>
+            <stress index="12" path="stresses/012"/>
+            <stress index="11" path="stresses/011"/>
+            <stress index="10" path="stresses/010"/>
+            <stress index="9" path="stresses/009"/>
+            <stress index="8" path="stresses/008"/>
+            <stress index="7" path="stresses/007"/>
+            <stress index="6" path="stresses/006"/>
+            <stress index="5" path="stresses/005"/>
+            <stress index="4" path="stresses/004"/>
+            <stress index="3" path="stresses/003"/>
+            <stress index="2" path="stresses/002"/>
+            <stress index="1" path="stresses/001"/>
+        </list>
+    </stresses>
+    <tags>
+        <tag value="combinatorics"/>
+        <tag value="dp"/>
+        <tag value="dp-on-trees"/>
+        <tag value="trees"/>
+    </tags>
+</problem>

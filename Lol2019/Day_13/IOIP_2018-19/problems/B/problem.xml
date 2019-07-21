@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<problem revision="13" short-name="two-texts" url="https://polygon.codeforces.com/p69px9C/BudAlNik/two-texts">
+    <names>
+        <name language="russian" value="Рапорт"/>
+    </names>
+    <statements>
+        <statement charset="UTF-8" language="russian" mathjax="true" path="statements/russian/problem.tex" type="application/x-tex"/>
+        <statement language="russian" path="statements/.pdf/russian/problem.pdf" type="application/pdf"/>
+    </statements>
+    <tutorials>
+        <tutorial charset="UTF-8" language="russian" mathjax="true" path="statements/russian/tutorial.tex" type="application/x-tex"/>
+        <tutorial language="russian" path="statements/.pdf/russian/tutorial.pdf" type="application/pdf"/>
+        <tutorial charset="UTF-8" language="russian" mathjax="true" path="statements/.html/russian/tutorial.html" type="text/html"/>
+    </tutorials>
+    <judging cpu-name="Intel(R) Core(TM) i3-8100 CPU @ 3.60GHz" cpu-speed="3600" input-file="" output-file="">
+        <testset name="tests">
+            <time-limit>2000</time-limit>
+            <memory-limit>268435456</memory-limit>
+            <test-count>39</test-count>
+            <input-path-pattern>tests/%02d</input-path-pattern>
+            <answer-path-pattern>tests/%02d.a</answer-path-pattern>
+            <tests>
+                <test group="0" method="manual" sample="true"/>
+                <test cmd="gen_random 10 5 3 5 7" group="1" method="generated"/>
+                <test cmd="gen_random 10 10 5 10 5" group="1" method="generated"/>
+                <test cmd="gen_random 1000 1000 5 1000 995" group="1" method="generated"/>
+                <test cmd="gen_random 1000 1000 500 1000 500" group="1" method="generated"/>
+                <test cmd="gen_random 1000 1000 400 1000 600" group="1" method="generated"/>
+                <test cmd="gen_random 1000 1000 600 1000 400" group="1" method="generated"/>
+                <test cmd="gen_random 1000 1000 500 900 500" group="1" method="generated"/>
+                <test cmd="gen_random 1000 1000 1 1 999" group="1" method="generated"/>
+                <test cmd="gen_random 1000 1 1 1000 999" group="1" method="generated"/>
+                <test cmd="gen_random 1000 1 999 1000 1" group="1" method="generated"/>
+                <test cmd="gen_random 1000 1000 999 1 1" group="1" method="generated"/>
+                <test cmd="gen_random 999 1000 499 1000 500" group="1" method="generated"/>
+                <test cmd="gen_random 987 1000 493 1000 494" group="1" method="generated"/>
+                <test cmd="gen_random2 9 5 2 8ad84e2ab2f9ba925b0f298b8056e24d" group="1" method="generated"/>
+                <test cmd="gen_random2 10 5 5 752" group="1" method="generated"/>
+                <test cmd="gen_random2 10 5 5 1735" group="1" method="generated"/>
+                <test cmd="gen_random2 10 5 5 3417" group="1" method="generated"/>
+                <test cmd="gen_random2 10 5 5 29018" group="1" method="generated"/>
+                <test cmd="gen_random2 11 8 4 26507 1110" group="1" method="generated"/>
+                <test cmd="gen_random2 8 7 3 27968 20942" group="1" method="generated"/>
+                <test cmd="gen_random 1000 1000 50 1000 50" group="1" method="generated"/>
+                <test cmd="gen_random 1000 1000 50 1000 10" group="1" method="generated"/>
+                <test cmd="gen_random 1000 1000 10 1000 50" group="1" method="generated"/>
+                <test cmd="gen_random 1000000000 100000 500 100000 999999500" group="2" method="generated"/>
+                <test cmd="gen_random 1000000000 100000 500000000 100000 500000000" group="2" method="generated"/>
+                <test cmd="gen_random 1000000000 100000 400000000 100000 600000000" group="2" method="generated"/>
+                <test cmd="gen_random 1000000000 100000 600000000 100000 400000000" group="2" method="generated"/>
+                <test cmd="gen_random 1000000000 100000 500000000 90000 500000000" group="2" method="generated"/>
+                <test cmd="gen_random 1000000000 100000 1000000 1 999000000" group="2" method="generated"/>
+                <test cmd="gen_random 1000000000 100000 1000000 100 999000000" group="2" method="generated"/>
+                <test cmd="gen_random 1000000000 1 1000000 100000 999000000" group="2" method="generated"/>
+                <test cmd="gen_random 1000000000 1 999000000 100000 1000000" group="2" method="generated"/>
+                <test cmd="gen_random 1000000000 100000 999000000 1 1000000" group="2" method="generated"/>
+                <test cmd="gen_random 1000000000 100000 1000000 100000 1000000" group="2" method="generated"/>
+                <test cmd="gen_random 1000000000 100000 10000000 100000 10000000" group="2" method="generated"/>
+                <test cmd="gen_random 1000000000 100000 100000000 100000 100000000" group="2" method="generated"/>
+                <test cmd="gen_random 1000000000 100000 1000000 100000 10000000" group="2" method="generated"/>
+                <test cmd="gen_random 1000000000 100000 10000000 100000 1000000" group="2" method="generated"/>
+            </tests>
+        </testset>
+    </judging>
+    <files>
+        <resources>
+            <file path="files/olymp.sty"/>
+            <file path="files/problem.tex"/>
+            <file path="files/statements.ftl"/>
+            <file path="files/testlib.h" type="h.g++"/>
+            <file path="files/tutorial.tex"/>
+        </resources>
+        <executables>
+            <executable>
+                <source path="files/gen_random.cpp" type="cpp.g++17"/>
+                <binary path="files/gen_random.exe" type="exe.win32"/>
+            </executable>
+            <executable>
+                <source path="files/gen_random2.cpp" type="cpp.g++17"/>
+                <binary path="files/gen_random2.exe" type="exe.win32"/>
+            </executable>
+            <executable>
+                <source path="files/validate.cpp" type="cpp.g++17"/>
+                <binary path="files/validate.exe" type="exe.win32"/>
+            </executable>
+        </executables>
+    </files>
+    <assets>
+        <checker name="std::ncmp.cpp" type="testlib">
+            <source path="files/check.cpp" type="cpp.g++17"/>
+            <binary path="check.exe" type="exe.win32"/>
+            <copy path="check.cpp"/>
+            <testset>
+                <test-count>0</test-count>
+                <input-path-pattern>files/tests/checker-tests/%02d</input-path-pattern>
+                <output-path-pattern>files/tests/checker-tests/%02d.o</output-path-pattern>
+                <answer-path-pattern>files/tests/checker-tests/%02d.a</answer-path-pattern>
+                <tests/>
+            </testset>
+        </checker>
+        <validators>
+            <validator>
+                <source path="files/validate.cpp" type="cpp.g++17"/>
+                <binary path="files/validate.exe" type="exe.win32"/>
+                <testset>
+                    <test-count>3</test-count>
+                    <input-path-pattern>files/tests/validator-tests/%02d</input-path-pattern>
+                    <tests>
+                        <test verdict="valid"/>
+                        <test verdict="invalid"/>
+                        <test verdict="invalid"/>
+                    </tests>
+                </testset>
+            </validator>
+        </validators>
+        <solutions>
+            <solution tag="wrong-answer">
+                <source path="solutions/two_texts_a_wa.cpp" type="cpp.g++17"/>
+                <binary path="solutions/two_texts_a_wa.exe" type="exe.win32"/>
+            </solution>
+            <solution tag="accepted">
+                <source path="solutions/two_texts_d.cpp" type="cpp.g++17"/>
+                <binary path="solutions/two_texts_d.exe" type="exe.win32"/>
+            </solution>
+            <solution tag="accepted">
+                <source path="solutions/two_texts_dp.cpp" type="cpp.g++17"/>
+                <binary path="solutions/two_texts_dp.exe" type="exe.win32"/>
+            </solution>
+            <solution tag="wrong-answer">
+                <source path="solutions/two_texts_dp_wa.cpp" type="cpp.g++17"/>
+                <binary path="solutions/two_texts_dp_wa.exe" type="exe.win32"/>
+            </solution>
+            <solution tag="accepted">
+                <source path="solutions/two_texts_gt.cpp" type="cpp.g++17"/>
+                <binary path="solutions/two_texts_gt.exe" type="exe.win32"/>
+            </solution>
+            <solution tag="wrong-answer">
+                <source path="solutions/two_texts_gt_wa.cpp" type="cpp.g++17"/>
+                <binary path="solutions/two_texts_gt_wa.exe" type="exe.win32"/>
+            </solution>
+            <solution tag="accepted">
+                <source path="solutions/two_texts_m.cpp" type="cpp.g++17"/>
+                <binary path="solutions/two_texts_m.exe" type="exe.win32"/>
+            </solution>
+            <solution tag="main">
+                <source path="solutions/two_texts_nb.cpp" type="cpp.g++17"/>
+                <binary path="solutions/two_texts_nb.exe" type="exe.win32"/>
+            </solution>
+            <solution tag="wrong-answer">
+                <source path="solutions/two_texts_nb_wa1.cpp" type="cpp.g++17"/>
+                <binary path="solutions/two_texts_nb_wa1.exe" type="exe.win32"/>
+            </solution>
+            <solution tag="wrong-answer">
+                <source path="solutions/two_texts_nb_wa2.cpp" type="cpp.g++17"/>
+                <binary path="solutions/two_texts_nb_wa2.exe" type="exe.win32"/>
+            </solution>
+            <solution tag="accepted">
+                <source path="solutions/two_texts_s.cpp" type="cpp.g++17"/>
+                <binary path="solutions/two_texts_s.exe" type="exe.win32"/>
+            </solution>
+            <solution tag="wrong-answer">
+                <source path="solutions/two_texts_s_wa.cpp" type="cpp.g++17"/>
+                <binary path="solutions/two_texts_s_wa.exe" type="exe.win32"/>
+            </solution>
+        </solutions>
+    </assets>
+    <properties>
+        <property name="tests-wellformed" value="true"/>
+    </properties>
+    <stresses>
+        <stress-count>2</stress-count>
+        <stress-path-pattern>stresses/%03d</stress-path-pattern>
+        <list>
+            <stress index="2" path="stresses/002"/>
+            <stress index="1" path="stresses/001"/>
+        </list>
+    </stresses>
+    <documents>
+        <document path="documents/description.txt" type="text/plain"/>
+        <document path="documents/tutorial.txt" type="text/plain"/>
+    </documents>
+    <tags>
+        <tag value="binary search"/>
+    </tags>
+</problem>

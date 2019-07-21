@@ -10,7 +10,7 @@ int main() {
 	ll n, p, k;
 	cin >> n >> p >> k;
 	vector <ll> a(n);
-	for (ll i = 0; i < n; i++) {
+        for (ll i = 0; i <= n; i++) {
 		cin >> a[i];
 	}
 

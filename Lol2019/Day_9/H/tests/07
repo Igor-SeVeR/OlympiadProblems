@@ -1,0 +1,14 @@
+print 100
+print 1000
+print 10000
+jump 1 100
+jump 2 100
+jump 5 100
+print 100
+print 100
+print 1000
+print 10000
+jump 1 100
+jump 12 100
+jump 10 100
+print 100

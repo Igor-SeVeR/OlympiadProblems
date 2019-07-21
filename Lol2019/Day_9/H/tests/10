@@ -1,0 +1,62 @@
+jump 1 9
+print 7
+jump 3 8
+print 2
+jump 3 6
+print 6
+print 7
+print 2
+jump 1 10
+print 9
+print 1
+jump 9 4
+jump 4 5
+jump 13 10
+jump 11 6
+jump 4 3
+print 7
+jump 6 1
+print 10
+jump 3 10
+print 4
+jump 2 10
+jump 19 4
+print 10
+jump 22 3
+jump 6 3
+jump 20 7
+print 7
+jump 10 6
+print 1
+print 6
+print 5
+print 5
+jump 19 10
+jump 32 2
+jump 32 8
+jump 25 10
+print 9
+print 8
+print 4
+jump 11 8
+print 6
+print 9
+print 7
+jump 40 9
+print 10
+jump 23 2
+jump 17 9
+jump 48 6
+jump 27 4
+print 6
+jump 48 10
+print 4
+jump 18 3
+jump 3 10
+print 3
+jump 52 6
+jump 24 5
+print 3
+jump 14 6
+jump 27 5
+jump 52 9

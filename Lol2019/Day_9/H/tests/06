@@ -1,0 +1,10 @@
+print 1
+jump 1 3
+print 1
+jump 2 3
+print 3
+jump 1 10
+jump 5 2
+print 4
+print 10
+jump 7 10

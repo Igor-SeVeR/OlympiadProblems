@@ -1,0 +1,215 @@
+jump 1 6
+print 8
+jump 3 10
+print 10
+print 10
+jump 4 3
+print 2
+print 4
+jump 2 10
+jump 1 7
+print 7
+jump 11 5
+print 4
+print 8
+jump 15 2
+jump 9 7
+jump 7 4
+jump 8 7
+print 4
+jump 4 6
+print 1
+jump 18 5
+print 8
+jump 16 4
+jump 21 8
+print 4
+print 6
+jump 3 10
+print 9
+jump 18 5
+print 9
+print 8
+jump 11 9
+jump 21 5
+print 10
+jump 36 8
+jump 22 3
+print 5
+print 2
+jump 27 5
+print 9
+jump 26 9
+jump 2 4
+jump 25 4
+print 4
+jump 1 4
+print 2
+print 10
+jump 11 2
+print 1
+jump 9 2
+jump 43 8
+jump 46 6
+print 10
+print 1
+jump 13 10
+jump 36 10
+print 7
+print 2
+jump 27 4
+jump 46 2
+print 8
+print 9
+jump 3 9
+jump 34 7
+print 9
+jump 43 2
+jump 66 7
+jump 12 2
+print 10
+print 4
+jump 29 9
+print 2
+print 7
+jump 3 6
+jump 31 6
+jump 44 2
+print 5
+jump 68 10
+jump 15 4
+print 9
+jump 28 9
+jump 24 8
+print 8
+jump 78 7
+jump 44 10
+jump 81 1
+jump 87 2
+jump 10 7
+jump 3 9
+print 1
+print 7
+print 8
+jump 17 9
+print 10
+jump 56 8
+print 5
+print 2
+print 5
+jump 64 10
+jump 52 9
+jump 94 9
+print 3
+jump 39 7
+jump 90 8
+print 6
+print 10
+jump 69 10
+jump 63 6
+jump 64 6
+jump 99 6
+print 9
+print 4
+jump 99 5
+jump 82 10
+jump 59 7
+print 2
+jump 59 5
+print 4
+jump 76 10
+jump 70 2
+print 1
+jump 107 10
+jump 95 4
+jump 26 10
+print 9
+print 10
+jump 24 10
+print 4
+jump 68 3
+print 8
+jump 16 5
+jump 13 9
+print 2
+jump 71 9
+print 3
+jump 100 6
+print 6
+print 2
+print 4
+print 1
+print 10
+jump 125 9
+jump 24 4
+print 3
+print 2
+jump 79 8
+jump 90 8
+print 10
+jump 3 9
+print 4
+print 10
+jump 35 1
+jump 93 6
+jump 28 2
+print 5
+jump 137 1
+jump 7 9
+jump 90 9
+jump 19 9
+print 8
+jump 98 4
+print 4
+jump 121 7
+print 6
+print 2
+jump 118 8
+print 1
+print 1
+jump 73 10
+print 9
+print 2
+jump 26 8
+print 7
+jump 100 6
+jump 76 3
+print 4
+jump 4 5
+print 8
+print 10
+jump 40 1
+print 4
+print 3
+print 1
+jump 163 3
+jump 157 6
+print 9
+jump 132 9
+jump 177 6
+print 6
+jump 40 2
+print 4
+jump 107 1
+print 10
+jump 180 5
+jump 94 10
+jump 91 7
+jump 54 7
+jump 163 5
+jump 12 7
+jump 119 4
+print 8
+print 1
+print 4
+jump 32 10
+print 4
+jump 174 10
+print 10
+jump 121 7
+print 5
+jump 97 1
+print 6
+print 4
+jump 88 10
+print 9

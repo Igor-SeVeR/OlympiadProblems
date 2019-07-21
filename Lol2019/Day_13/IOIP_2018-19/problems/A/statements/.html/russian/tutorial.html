@@ -1,0 +1,17 @@
+<HTML><HEAD><META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <META content="no-cache" http-equiv="pragma">
+    <META content="-1" http-equiv="expires">
+    <META content="text/html;charset=UTF-8" http-equiv="content-type">
+    <LINK href="problem-statement.css" rel="stylesheet" type="text/css">
+    <TITLE>Ослабление флота</TITLE>
+    <SCRIPT type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+          tex2jax: {inlineMath: [['$$$','$$$']], displayMath: [['$$$$$$','$$$$$$']]}
+        });
+        </SCRIPT>
+        <SCRIPT async="" src="https://polygon.codeforces.com/lib/MathJax/MathJax.js?config=TeX-MML-AM_CHTML" type="text/javascript">
+    </SCRIPT>
+</HEAD><BODY>
+    <DIV class="problem-statement"><DIV class="header"><DIV class="title">Ослабление флота</DIV></DIV><DIV class="tutorial"><P>Решение на <SPAN class="tex-font-style-bf">47 баллов</SPAN>: Напишем ровно то, что просят в условии. $$$n$$$ раз будем искать медиану в массиве, после чего удалять ее, получая новый массив. Как найти медиану? Есть два способа: </P><UL type="disc"> <LI> Отсортировать массив за $$$O(n \log n)$$$, тогда медианой, очевидно, будет $$$\frac{n}{2}$$$-й элемент. Итоговая сложность решения будет $$$O(n^2 \log n)$$$. </LI><LI> Воспользоваться алгоритмом поиска к-ой порядковой статистики, который работает за $$$O(n)$$$, а также реализован в стандартной библиотеке в некоторых языках. Итоговая сложность решения будет $$$O(n^2)$$$. </LI></UL><P></P><P>Для решения на <SPAN class="tex-font-style-bf">100 баллов</SPAN> заметим, что можно модифицировать первый способ решения предыдущей подгруппы. После того, как мы отсортировали массив и удалим медиану, следующая медиана это соседний элемент от удаленного. Таким образом, достаточно отсортировать массив ровно один раз, после чего с помощью метода двух указателей пройтись по нему и вывести нужные элементы.</P><P>Для удобства можно отдельно рассмотреть случай нечетной длины. Итоговая сложность данного решения $$$O(n \log n)$$$.</P></DIV></DIV>   
+
+</BODY></HTML>
